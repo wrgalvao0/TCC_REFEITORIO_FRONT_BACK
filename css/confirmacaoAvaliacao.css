@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+div
+{
+    width: 23%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img
+{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+h3
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+}
+
+/*RESPONSIVIDADE PARA MOBILE*/
+@media (min-width: 359px) and (max-width: 415px)
+{
+    div
+    {
+        width: 100%;
+    }
+}
+/*RESPONSIVIDADE PARA TABLETS*/
+@media (min-width: 539px) and (max-width: 913px)
+{
+    div
+    {
+        width: 100%;
+    }
+}

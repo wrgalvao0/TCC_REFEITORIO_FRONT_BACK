@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.cabecalho
+{
+  border-bottom: 1px black solid;
+}
+#logoUnifesspa
+{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  width: 180px;
+}
+.cabecalho h3
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 10pt;
+  color: black;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.campoInput
+{
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 5px;
+  border: none;
+  background-color: white;
+  font-size: 09pt;
+  width: 20%;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  font-family: 'Open Sans', sans-serif;
+}
+#dataRelatorio
+{
+  margin-top: 25px;
+  font-size: 10pt;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+#entradaDados
+{
+  text-align: center;
+}
+.botao
+{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin-top: 15px;
+  margin-bottom: 7px;
+  background-color: rgba(120,191,58,1);
+  padding: 10px;
+  border-radius: 06px;
+  width: 8%;
+  color: white;
+  font-size: 09pt;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.botao:hover
+{
+  cursor: pointer;
+}
+.container-graficos
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.graficos
+{
+  width: 600px;
+  height: 250px;
+}
+/*RESPONSIVIDADE PARA MOBILE*/
+@media (min-width: 359px) and (max-width: 415px)
+{
+  #logoUnifesspa
+  {
+    width: 100px;
+  }
+  .cabecalho h3
+  {
+    font-size: 07pt;
+  }
+  #dataRelatorio
+  {
+    font-size: 07pt;
+  }
+  .botao
+  {
+    font-size: 07pt;
+    width: 20%;
+  }
+  .graficos
+  {
+    width: 350px;
+    height: 170px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+/*RESPONSIVIDADE PARA TABLETS IPAD AIR/ IPAD MINI/ SURFACE PRO 7*/
+@media (min-width: 767px) and (max-width: 912px)
+{
+  .botao
+  {
+    width: 12%;
+  }
+  .graficos
+  {
+    width: 350px;
+    height: 150px;
+  }
+}
+/*RESPONSIVIDADE PARA TABLET SURFACE DUO*/
+@media (min-width: 539px) and (max-width: 767px)
+{
+  #logoUnifesspa
+  {
+    width: 135px;
+  }
+  .cabecalho h3
+  {
+    font-size: 09pt;
+  }
+  #dataRelatorio
+  {
+    font-size: 09pt;
+  }
+  .botao
+  {
+    width: 18%;
+  }
+  .graficos
+  {
+    width: 370px;
+    height: 180px;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1025px)
+{
+  .botao
+  {
+    font-size: 10pt;
+    width: 10%;
+  }
+  .graficos
+  {
+    width: 390px;
+    height: 200px;
+  }
+}
+@media (min-width: 1279px) and (max-width: 1281px)
+{
+  .botao
+  {
+    font-size: 10pt;
+    width: 8%;
+  }
+  .graficos
+  {
+    width: 390px;
+    height: 200px;
+  }
+}

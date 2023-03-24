@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+#logoUnifesspa
+{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  width: 180px;
+}
+form
+{
+  width: 500px;
+  margin: auto;
+  font-size: 10pt;
+  font-family: 'Open Sans', sans-serif;
+}
+.cabecalho
+{
+  border-bottom: 1px black solid;
+}
+.cabecalho h3
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 10pt;
+  color: black;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.campoInput
+{
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 5px;
+  border: none;
+  background-color: white;
+  font-size: 09pt;
+  width: 97%;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  font-family: 'Open Sans', sans-serif;
+}
+#dataNascimento
+{
+  width: 50%;
+  border: none;
+  padding: 8px;
+  border-radius: 05px;
+  font-size: 15px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+#estado
+{
+  border-radius: 5px;
+  border: none;
+  padding: 2px;
+}
+.botao
+{
+  margin-top: 20px;
+  margin-bottom: 7px;
+  margin-right: 7px;
+  background-color: rgba(120,191,58,1);
+  padding: 10px;
+  border-radius: 06px;
+  width: 35%;
+  color: white;
+  font-size: 09pt;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.botoes
+{
+  text-align: center;
+}
+.botao:hover
+{
+  cursor: pointer;
+}
+.input-opcao
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sexo
+{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sexo p
+{
+  margin-left: 0px;
+}
+.labelSexo
+{
+  text-align: center;
+  margin-top: 10px;
+}
+.box
+{
+  background-color: rgba(217,217,217,1);
+  border-radius: 24px;
+  margin-top: 7px;
+}
+.titulosBox
+{
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(120,191,58,1);
+  font-weight: bold;
+  border-radius: 6px;
+  color: white;
+}
+.mensagemCadastro
+{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+  font-size: 9.5pt;
+  font-weight: bold;
+}
+/*RESPONSIVIDADE PARA MOBILE*/
+@media (min-width: 359px) and (max-width: 415px)
+{
+  form
+  {
+    width: 100%;
+  }
+  .box
+  {
+    width: 93%;
+  }
+  #logoUnifesspa
+  {
+    width: 100px;
+  }
+  .cabecalho h3
+  {
+    font-size: 07pt;
+  }
+  .titulosBox
+  {
+    font-size: 08pt;
+  }
+  .campoInput
+  {
+    padding: 10px;
+    font-size: 07pt;
+    height: 10px;
+    width: 94%;
+  }
+  .botao
+  {
+    width: 30%;
+    font-size: 07pt;
+  }
+  .labelSexo
+  {
+    font-size: 07pt;
+  }
+  p
+  {
+    font-size: 07pt;
+  }
+  #labelDataNascimento
+  {
+    font-size: 07pt;
+  }
+  .inputBox
+  {
+    font-size: 07pt;
+  }
+  #estado
+  {
+    font-size: 07pt;
+  }
+  .labelInputRadio
+  {
+    text-align: center;
+  }
+  #dataNascimento
+  {
+    padding: 13px;
+  }
+  .mensagemCadastro
+  {
+    font-size: 7pt;
+  }
+}
