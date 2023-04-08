@@ -66,8 +66,8 @@ function login($nomeUsuario, $senha)
 function verificaHorario()
 {
     $horarioAtual = date("H:i:s"); // Obtém o horário atual do servidor
-    $horarioInicio = "00:01:00"; // Define o horário de início permitido
-    $horarioFim = "23:59:00"; // Define o horário de fim permitido
+    $horarioInicio = "11:00:00"; // Define o horário de início permitido
+    $horarioFim = "16:00:00"; // Define o horário de fim permitido
     
     // Verifica se o horário atual está dentro do intervalo permitido
     if ($horarioAtual >= $horarioInicio && $horarioAtual <= $horarioFim)
