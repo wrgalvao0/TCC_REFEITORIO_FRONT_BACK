@@ -15,10 +15,14 @@ Página para administrador do site
 
 Geração de dados estatísticos das avaliações das refeições por meio de gráficos para um dia específico escolhido para o administrador do site.
 
-🔹 Tecnologias Utilizadas
+🔹 Tecnologias Utilizadas:
+
 Front-end: HTML5, CSS3, JAVASCRIPT
+
 Back-end: PHP
+
 Banco de Dados: MySQL
+
 Gráficos: Google Charts
 
 📩 Contato
@@ -30,4 +34,5 @@ GitHub: wrgalvao0
 Email: warleygalvao61@gmail.com
 
 Contribuições
+
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, fique à vontade para abrir uma issue ou criar um pull request
