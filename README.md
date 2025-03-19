@@ -25,6 +25,18 @@ Banco de Dados: MySQL
 
 Gráficos: Google Charts
 
+🚀 Como Rodar
+
+Clone este repositório:
+
+git clone https://github.com/wrgalvao0/TCC_REFEITORIO_FRONT_BACK.git
+
+Configure o banco de dados utilizando o arquivo BD_TCC.sql.
+
+Execute o projeto em um servidor local (por exemplo, XAMPP ou WAMP).
+
+Acesse a aplicação através do navegador.
+
 📩 Contato
 
 Caso tenha sugestões ou queira contribuir com o projeto, entre em contato:
