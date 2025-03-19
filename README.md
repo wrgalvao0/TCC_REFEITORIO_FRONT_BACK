@@ -29,7 +29,7 @@ Este repositório contém o código completo do meu Trabalho de Conclusão de Cu
 
 -Clone este repositório:
 
--git clone https://github.com/wrgalvao0/TCC_REFEITORIO_FRONT_BACK.git
+git clone https://github.com/wrgalvao0/TCC_REFEITORIO_FRONT_BACK.git
 
 -Configure o banco de dados utilizando o arquivo BD_TCC.sql.
 
